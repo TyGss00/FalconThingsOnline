@@ -1,0 +1,59 @@
+/* About Section Styles */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px 10%;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center; 
+}
+
+.about-text {
+    flex: 1;
+    max-width: 60%;
+    margin-right: 30px;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    color: #00ffcc;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    font-size: 2em;
+    color: #ff007f;
+    margin-top: 30px;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.about ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 35%;
+    display: flex;
+    justify-content: center; 
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
